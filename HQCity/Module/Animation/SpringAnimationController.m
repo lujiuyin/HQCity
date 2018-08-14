@@ -1,18 +1,18 @@
 //
-//  EmitterController.m
+//  SpringAnimationController.m
 //  HQCity
 //
-//  Created by 陆久银 on 2018/7/18.
+//  Created by 陆久银 on 2018/7/27.
 //  Copyright © 2018年 lujiuyin. All rights reserved.
 //
 
-#import "EmitterController.h"
+#import "SpringAnimationController.h"
 
-@interface EmitterController ()
+@interface SpringAnimationController ()
 
 @end
 
-@implementation EmitterController
+@implementation SpringAnimationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,22 +1,25 @@
 //
-//  DiscoveryController.m
+//  GravityViewController.m
 //  HQCity
 //
-//  Created by 陆久银 on 2018/7/17.
+//  Created by 陆久银 on 2018/7/27.
 //  Copyright © 2018年 lujiuyin. All rights reserved.
 //
 
-#import "DiscoveryController.h"
+#import "GravityViewController.h"
+#import "GravityView.h"
 
-@interface DiscoveryController ()
+@interface GravityViewController ()
 
 @end
 
-@implementation DiscoveryController
+@implementation GravityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    GravityView *gravityView = [[GravityView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 200)];
+    [self.view addSubview:gravityView];
 }
 
 - (void)didReceiveMemoryWarning {
